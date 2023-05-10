@@ -1,0 +1,94 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #14171a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+header {
+  background-color: #12487c;
+  text-align: center;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+main {
+  text-align: center;
+}
+
+textarea {
+  background-color: transparent;
+  width: 30rem;
+  height: 10rem;
+  font-size: 1.7rem;
+  border: 0.2rem solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  outline: 0; /* Remove a linha interna quando estiver onfocus */
+  resize: none;
+}
+
+select,
+button {
+  background-color: transparent;
+  width: 30rem;
+  display: block;
+  font-weight: bold;
+  font-size: 1.7rem;
+  border: 0.2rem solid #ccc;
+  border-radius: 0.5rem;
+
+  padding: 1rem;
+  margin: 1rem auto;
+
+  cursor: pointer;
+}
+
+/* Utilizado para desativar o botão de fala quando já estiver sendo executado */
+select:disabled,
+button:disabled {
+  opacity: 0.1;
+}
+
+option {
+  background-color: #14171a;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer .socialMedia {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+footer .socialMedia a {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+footer .socialMedia a:hover {
+  color: #ffc107;
+}
+
+
+
+@media (max-width: 600px) {
+    html {
+        font-size: 58%;
+    }
+}
